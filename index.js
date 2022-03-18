@@ -72,7 +72,7 @@
     }
     // Define o operador da função.
     function addOperator(o){
-        if(operator == "") operator = o;
+        if(operator == "" || prevNumber == "") operator = o;
         else solve(o);
         update();
     }
