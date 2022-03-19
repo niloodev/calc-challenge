@@ -50,3 +50,5 @@ Em suma, finalizei o projeto criando um sistema básico de calculadora funcional
 
 ## Autor
 **niloodev**
+
+**Qualquer dica ou feedback é apreciado! 🐸**
