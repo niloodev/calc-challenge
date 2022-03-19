@@ -133,7 +133,7 @@
                 break;
         }
         clearCalc();
-        prevNumber = (result == 0)?"0":(Number.isInteger(result))?result.toString():result.toFixed(1);
+        prevNumber = (result == 0)?"0":(Number.isInteger(result))?result.toString():result.toFixed(2);
         if(e) operator = e;
         update();
     }
