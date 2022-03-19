@@ -16,7 +16,7 @@ Foi um desafio relativamente fácil de fazer, não utilizei nenhuma framework ou
 
 ### O Desafio
 
-O desafio é simples, você deve construir uma calculadora que se assimile ao design apresentando.
+O desafio é simples, você deve construir uma calculadora que se assimile ao design apresentado.
 
 Você pode utilizar as ferramentas que quiser para completar o desafio.
 
