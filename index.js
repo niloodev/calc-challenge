@@ -13,6 +13,8 @@
     var prevNumber = "";
     var posNumber = "";
     var operator = "";
+
+    var savedTheme = "";
 //#endregion
 
 
@@ -20,6 +22,17 @@
 
 
 //#region TROCA DE TEMA
+    // Verifica o tema guardado no navegador se existir.
+    var userTheme = localStorage.getItem("user-theme");
+    if(userTheme == null) savedTheme = "blue";
+    else savedTheme = userTheme;
+
+    document.querySelector("body").className = savedTheme;
+    document.querySelectorAll("input")
+    .forEach((r)=>{
+        if(r.id == savedTheme) r.setAttribute("checked", "");
+    });
+
     // Define um listener em todos os radios, que sempre que for selecionado vai executar a função changeTheme() com seu id.
     document.querySelectorAll("input")
     .forEach((r)=>{
@@ -31,6 +44,7 @@
     // Essa função simplesmente troca a classe do body - o resto é magia do CSS.
     function changeTheme(themeName){
         document.querySelector("body").className = themeName;
+        localStorage.setItem("user-theme", themeName);
     }
 //#endregion
 
