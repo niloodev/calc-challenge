@@ -54,6 +54,32 @@
 
 
 //#region CALCULADORA
+    // Disponibiliza o uso do teclado na calculadora.
+    window.addEventListener("keydown", (e)=>{
+        switch(e.key){
+            case "1": addNumber("1"); break;
+            case "2": addNumber("2"); break;
+            case "3": addNumber("3"); break;
+            case "4": addNumber("4"); break;
+            case "5": addNumber("5"); break;
+            case "6": addNumber("6"); break;
+            case "7": addNumber("7"); break;
+            case "8": addNumber("8"); break;
+            case "9": addNumber("9"); break;
+            case "0": addNumber("0"); break;
+            case "x": addOperator("x"); break;
+            case "*": addOperator("x"); break;
+            case "/": addOperator("/"); break;
+            case "+": addOperator("+"); break;
+            case "-": addOperator("-"); break;
+            case "Backspace": deleteNumber(); break;
+            case "Enter": solve(); break;
+            case ".": addNumber("."); break;
+            case ",": addNumber("."); break;
+            case "Escape": clearCalc(); break;
+        }
+    })
+
     // Reseta os valores padrões de calculo.
     function clearCalc(){
         prevNumber = "";
