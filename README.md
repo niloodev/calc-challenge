@@ -24,7 +24,7 @@ Os usuários precisam conseguir:
 
 - Ver os elementos na tela a partir da resolução do dispositivo sem distorções (**responsividade**)
 - Performar operações matemáticas básicas como: multiplicação, divisão, subtração e adição.
-- Escolher o dentre os três temas propostos dentro da página.
+- Ter a capacidade de escolher um dos temas da página dinamicamente.
 - **Bônus**: Ter o último tema escolhido guardado dentro do navegador como `prefers-color-scheme`.
 
 ### Prints
