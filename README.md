@@ -37,9 +37,9 @@ Tema roxo, ou número 3.
 ![](./screenshots/desktop_purple.png)
 
 ## Processo
-Eu comecei criando uma div "main" para realizar testes de responsividade, indo para os outros componentes e construindo uma estrutura.
-Logo depois foi para estilização, criei as varíaveis com as cores de cada tema (disponibilizado pelo desafio) e separei elas. Meu plano desde o começo era trocar a classe da tag "body" e organizar os estilos pelas classes de temas, assim possibilitando uma troca intuitiva e uma transição suaves das cores com o "transition". (visto que eu não tinha nenhuma outra ferramenta disponível e fiz tudo com HTML, CSS e JS puro foi o que consegui improvisar)
-Em suma, finalizei o projeto criando um sistema básico de calculadora e agregando e corrigindo alguns pequenos bugs.
+Eu comecei criando uma div "main" para realizar testes de responsividade, criando a estrutura da página - como a tela, o teclado, os botões, o cabeçalho, o **input** dos temas.
+Logo após fui para estilização, criei as varíaveis com as cores de cada tema (disponibilizado pelo desafio) e separei elas; meu plano desde o começo era trocar a classe da tag "body" e organizar os estilos pelas classes respectivas aos temas, assim possibilitando uma troca simples de realizar em JS e uma transição suave das cores com o "transition" do CSS. (visto que optei por não utilizar nenhuma outra ferramenta complexa - vulgo React ou SASS - e fiz tudo com HTML, CSS e JS puro)
+Em suma, finalizei o projeto criando um sistema básico de calculadora funcional com o design proposto - tive que corrigir alguns pequenos bugs para o resultado final.
 
 ### Feito com
 
