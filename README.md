@@ -45,9 +45,9 @@ Em suma, finalizei o projeto criando um sistema básico de calculadora funcional
 
 ### FERRAMENTAS
 
-- HTML básico.
-- Variáveis de CSS.
-- Flexbox (CSS) | decidi destacar essa já que é ESSENCIAL para fazer uma página responsiva.
+- HTML básico
+- Variáveis de CSS
+- Flexbox (CSS) | decidi destacar essa já que é ESSENCIAL para fazer uma página responsiva
 - Fonte ["Spartan do Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
 
 ## AUTOR
