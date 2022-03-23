@@ -107,6 +107,7 @@ body{
 
     /* Desabilitar seleção de texto */
     user-select: none;
+    position: relative;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -137,6 +138,7 @@ body{
 /* Cabeçalho da calculadora. */
 .header{
     width: 100%;
+    min-width: 315px;
     display: flex; justify-content: space-between; align-items: center;
     height: 55px;
     transition: all 0.5s ease;
@@ -204,6 +206,8 @@ body{
 /* ------------------------- TELA DE EXIBIÇÂO- */
 .screen{
     width: calc(100% - 25px);
+    min-width: 290px;
+
     height: 128px;
     min-height: 110px;
     border-radius: 10px;
@@ -229,6 +233,7 @@ body{
 /* ----------------------------------TECLADO - */
 .toggle{
     width: calc(100% - 25px);
+    min-width: 290px;
     height: 425px;
 
     border-radius: 10px;
@@ -276,6 +281,8 @@ body{
 
 /* ---------------------------RESPONSIVIDADE -  */
 @media (max-width: 540px){
+    body {
+    }
     .main{
         height: calc(100% - 40px);
         width: calc(100% - 40px);
@@ -284,9 +291,24 @@ body{
     .screen{
         height: 110px;
     }
-    .attribution { font-size: 5px;}
+    .attribution { font-size: 5px; }
     .screen #value{ font-size: 38px; }
     .screen #oldValue { font-size: 10px; }
+}
+
+@media (max-width: 360px) {
+    .main {
+        transform: scale(0.7, 0.7);
+    }
+}
+
+@media (max-height: 650px) {
+    .main {
+        height: 660px;
+    }
+    body {
+        height: 700px;
+    }
 }
 /* ------------------------------------------- */
 
