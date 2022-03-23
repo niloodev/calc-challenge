@@ -1,8 +1,8 @@
-# Frontend Mentor - Solução do Desafio da Calculadora
+# FRONTEND MENTOR - SOLUÇÃO DO DESAFIO DA CALCULADORA
 
 Essa é uma das soluções para o [Desafio da Calculadora do Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
 
-## Sumário
+## SUMÁRIO
 
 - [RESUMO](#overview)
   - [DESAFIO](#the-challenge)
