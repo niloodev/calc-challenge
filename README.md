@@ -4,12 +4,12 @@ Essa é uma das soluções para o [Desafio da Calculadora do Frontend Mentor](ht
 
 ## SUMÁRIO
 
-- [RESUMO](#overview)
-  - [DESAFIO](#the-challenge)
-  - [IMAGENS](#screenshot)
-- [PROCESSO](#my-process)
-  - [FERRAMENTAS UTILIZADAS](#built-with)
-- [AUTOR | CRÉDITOS](#author)
+- [RESUMO](#RESUMO)
+  - [DESAFIO](#DESAFIO)
+  - [PRINTS](#PRINTS)
+- [PROCESSO](#PROCESSO)
+  - [FERRAMENTAS](#FERRAMENTAS)
+- [AUTOR](#AUTOR)
 
 ## RESUMO
 Foi um desafio relativamente fácil de fazer, não utilizei nenhuma framework ou biblioteca em especial; construindo o código inteiro no puro HTML, CSS e JS.
@@ -27,18 +27,20 @@ Os usuários precisam conseguir:
 - Ter a capacidade de escolher um dos temas da página dinamicamente.
 - **Bônus**: Ter o último tema escolhido guardado dentro do navegador como `prefers-color-scheme`.
 
-### IMAGENS | PRINTS
+### PRINTS
 
-Tema azul, ou número 1.
+## TEMA AZUL ou TEMA 1
 ![](./screenshots/desktop_blue.png)
-Tema branco, ou número 2.
+## TEMA BRANCO ou TEMA 2
 ![](./screenshots/desktop_white.png)
-Tema roxo, ou número 3.
+## TEMA ROXO ou TEMA 3
 ![](./screenshots/desktop_purple.png)
 
 ## PROCESSO
 Eu comecei criando uma div "main" para realizar testes de responsividade, criando a estrutura da página - como a tela, o teclado, os botões, o cabeçalho, o **input** dos temas.
+
 Logo após fui para estilização, criei as varíaveis com as cores de cada tema (disponibilizado pelo desafio) e separei elas; meu plano desde o começo era trocar a classe da tag "body" e organizar os estilos pelas classes respectivas aos temas, assim possibilitando uma troca simples de realizar em JS e uma transição suave das cores com o "transition" do CSS. (visto que optei por não utilizar nenhuma outra ferramenta complexa - vulgo React ou SASS - e fiz tudo com HTML, CSS e JS puro).
+
 Em suma, finalizei o projeto criando um sistema básico de calculadora funcional com o design proposto - tive que corrigir alguns pequenos bugs para o resultado final.
 
 ### FERRAMENTAS
@@ -48,7 +50,7 @@ Em suma, finalizei o projeto criando um sistema básico de calculadora funcional
 - Flexbox (CSS) | decidi destacar essa já que é ESSENCIAL para fazer uma página responsiva.
 - Fonte ["Spartan do Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
 
-## AUTOR | CRÉDITOS
+## AUTOR
 **Feito por niloodev | Ezequiel Nilo**
 
 **QUALQUER DICA OU FEEDBACK É ALTAMENTE APRECIADO! 🐸**
