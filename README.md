@@ -5,10 +5,10 @@ Essa é uma das soluções para o [Desafio da Calculadora do Frontend Mentor](ht
 ## Sumário
 
 - [Resumo](#overview)
-  - [O Desafio](#the-challenge)
+  - [Desafio](#the-challenge)
   - [Imagens](#screenshot)
 - [Processo](#my-process)
-  - [Feito com](#built-with)
+  - [Ferramentas](#built-with)
 - [Autor](#author)
 
 ## Resumo
@@ -22,7 +22,7 @@ Você pode utilizar as ferramentas que quiser para completar o desafio.
 
 Os usuários precisam conseguir:
 
-- Ver os elementos na tela a partir da resolução do dispositivo sem distorções (**responsividade**)
+- Ver os elementos na tela a partir da resolução do dispositivo sem distorções (**responsividade**).
 - Performar operações matemáticas básicas como: multiplicação, divisão, subtração e adição.
 - Ter a capacidade de escolher um dos temas da página dinamicamente.
 - **Bônus**: Ter o último tema escolhido guardado dentro do navegador como `prefers-color-scheme`.
@@ -41,7 +41,7 @@ Eu comecei criando uma div "main" para realizar testes de responsividade, criand
 Logo após fui para estilização, criei as varíaveis com as cores de cada tema (disponibilizado pelo desafio) e separei elas; meu plano desde o começo era trocar a classe da tag "body" e organizar os estilos pelas classes respectivas aos temas, assim possibilitando uma troca simples de realizar em JS e uma transição suave das cores com o "transition" do CSS. (visto que optei por não utilizar nenhuma outra ferramenta complexa - vulgo React ou SASS - e fiz tudo com HTML, CSS e JS puro).
 Em suma, finalizei o projeto criando um sistema básico de calculadora funcional com o design proposto - tive que corrigir alguns pequenos bugs para o resultado final.
 
-### Feito com
+### Ferramentas
 
 - HTML básico.
 - Variáveis de CSS.
@@ -49,6 +49,6 @@ Em suma, finalizei o projeto criando um sistema básico de calculadora funcional
 - Fonte ["Spartan do Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
 
 ## Autor
-**niloodev**
+**Feito por niloodev | Ezequiel Nilo**
 
-**Qualquer dica ou feedback é apreciado! 🐸**
+**Qualquer dica ou feedback é altamente apreciado! 🐸**

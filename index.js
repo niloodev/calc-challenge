@@ -23,7 +23,7 @@
 
 //#region TROCA DE TEMA
     // Verifica o tema guardado no navegador se existir.
-    var userTheme = localStorage.getItem("user-theme");
+    var userTheme = localStorage.getItem("prefers-color-scheme");
     if(userTheme == null) savedTheme = "blue";
     else savedTheme = userTheme;
 
@@ -44,7 +44,7 @@
     // Essa função simplesmente troca a classe do body - o resto é magia do CSS.
     function changeTheme(themeName){
         document.querySelector("body").className = themeName;
-        localStorage.setItem("user-theme", themeName);
+        localStorage.setItem("prefers-color-scheme", themeName);
     }
 //#endregion
 
