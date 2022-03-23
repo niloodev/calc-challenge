@@ -2,6 +2,8 @@
 
 Essa é uma das soluções para o [Desafio da Calculadora do Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
 
+Veja a solução em tempo real [aqui](https://niloodev.github.io/frontend-challenge-1/index.html).
+
 ## SUMÁRIO
 
 - [RESUMO](#RESUMO)
