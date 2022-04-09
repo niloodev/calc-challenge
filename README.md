@@ -1,58 +1,60 @@
-# FRONTEND MENTOR - SOLUÇÃO DO DESAFIO DA CALCULADORA
+# FRONTEND MENTOR - CALCULATOR CHALLENGE SOLUTION
 
-Essa é uma das soluções para o [Desafio da Calculadora do Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
+![](./screenshots/desktop_blue.png)
 
-Veja a solução em tempo real [aqui](https://niloodev.github.io/frontend-prototypes/calc-challenge/index.html).
+This is one of the solutions to the [Frontend Mentor Calculator Challenge](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).
 
-## SUMÁRIO
+See the real-time solution [here](https://calc-challenge.vercel.app).
 
-- [RESUMO](#RESUMO)
-  - [DESAFIO](#DESAFIO)
+## SUMMARY
+
+- [ABSTRACT](#ABSTRACT)
+  - [CHALLENGE](#CHALLENGE)
   - [PRINTS](#PRINTS)
-- [PROCESSO](#PROCESSO)
-  - [FERRAMENTAS](#FERRAMENTAS)
-- [AUTOR](#AUTOR)
+- [PROCESS](#PROCESS)
+  - [TOOLS](#TOOLS)
+- [AUTHOR](#AUTHOR)
 
-## RESUMO
-Foi um desafio relativamente fácil de fazer, não utilizei nenhuma framework ou biblioteca em especial; construindo o código inteiro no puro HTML, CSS e JS.
+## ABSTRACT
+This was a relatively easy challenge to do, I didn't use any particular framework or library; building the entire code in pure HTML, CSS and JS.
 
-### DESAFIO
+### CHALLENGE
 
-O desafio é simples, você deve construir uma calculadora que se assimile ao design apresentado.
+The challenge is simple, you must build a calculator that assimilates to the presented design.
 
-Você pode utilizar as ferramentas que quiser para completar o desafio.
+You can use whatever tools you want to complete the challenge.
 
-Os usuários precisam conseguir:
+Users need to be able to:
 
-- Ver os elementos na tela a partir da resolução do dispositivo sem distorções (**responsividade**).
-- Performar operações matemáticas básicas como: multiplicação, divisão, subtração e adição.
-- Ter a capacidade de escolher um dos temas da página dinamicamente.
-- **Bônus**: Ter o último tema escolhido guardado dentro do navegador como `prefers-color-scheme`.
+- See elements on the screen from the device's resolution without distortion (**responsivity**).
+- Perform basic mathematical operations such as: multiplication, division, subtraction and addition.
+- Have the ability to choose one of the page themes dynamically.
+- **Bonus**: Have the last chosen theme stored inside the browser as `prefers-color-scheme`.
 
 ### PRINTS
 
-## TEMA AZUL ou TEMA 1
+## BLUE THEME or THEME 1
 ![](./screenshots/desktop_blue.png)
-## TEMA BRANCO ou TEMA 2
+## WHITE THEME or THEME 2
 ![](./screenshots/desktop_white.png)
-## TEMA ROXO ou TEMA 3
+## PURPLE THEME or THEME 3
 ![](./screenshots/desktop_purple.png)
 
-## PROCESSO
-Eu comecei criando uma div "main" para realizar testes de responsividade, criando a estrutura da página - como a tela, o teclado, os botões, o cabeçalho, o **input** dos temas.
+## PROCESS
+I started by creating a div "main" to perform responsiveness tests, creating the structure of the page - like the screen, the keyboard, the buttons, the header, the **input** of the themes.
 
-Logo após fui para estilização, criei as varíaveis com as cores de cada tema (disponibilizado pelo desafio) e separei elas; meu plano desde o começo era trocar a classe da tag "body" e organizar os estilos pelas classes respectivas aos temas, assim possibilitando uma troca simples de realizar em JS e uma transição suave das cores com o "transition" do CSS. (visto que optei por não utilizar nenhuma outra ferramenta complexa - vulgo React ou SASS - e fiz tudo com HTML, CSS e JS puro).
+Soon after I went to styling, created the variables with the colors of each theme (provided by the challenge) and separated them; my plan from the beginning was to change the class of the "body" tag and organize the styles by the respective classes of the themes, thus allowing a simple change in JS and a smooth transition of the colors with the CSS "transition" (since I chose not to use any other complex tool - aka React or SASS - and did everything with pure HTML, CSS and JS).
 
-Em suma, finalizei o projeto criando um sistema básico de calculadora funcional com o design proposto - tive que corrigir alguns pequenos bugs para o resultado final.
+All in all, I finished the project creating a basic functional calculator system with the proposed design - I had to fix some minor bugs for the final result.
 
-### FERRAMENTAS
+### TOOLS
 
-- HTML básico
-- Variáveis de CSS
-- Flexbox (CSS) | decidi destacar essa já que é ESSENCIAL para fazer uma página responsiva
-- Fonte ["Spartan do Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
+- Basic HTML
+- CSS variables
+- Flexbox (CSS) | I decided to highlight this one since it is ESSENTIAL to make a responsive page
+- Font ["Spartan from Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
 
-## AUTOR
-**Feito por niloodev | Ezequiel Nilo**
+## AUTHOR
+**Made by niloodev | Ezequiel Nilo
 
-**QUALQUER DICA OU FEEDBACK É ALTAMENTE APRECIADO! 🐸**
+**ANY TIPS OR FEEDBACK IS HIGHLY APPRECIATED! 🐸**

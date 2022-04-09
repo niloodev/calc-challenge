@@ -1,15 +1,15 @@
 
 // *niloodev
-// Script 18/03
-// - INICIALIZAÇÃO DE VARIAVEIS
-// - TROCA DE TEMA (FUNÇÃO)
-// - CALCULADORA (FUNÇÕES DE USO)
+// 🐸: Summary
+// - Var definitions.
+// - Theme change functions.
+// - Calc functions.
 
 
 
 
 
-//#region INICIALIZAÇÃO DE VAR
+//#region Var definitions.
     var prevNumber = "";
     var posNumber = "";
     var operator = "";
@@ -21,8 +21,8 @@
 
 
 
-//#region TROCA DE TEMA
-    // Verifica o tema guardado no navegador se existir.
+//#region Theme change functions.
+    // Verify if exists theme in localStorage.
     var userTheme = localStorage.getItem("prefers-color-scheme");
     if(userTheme == null) savedTheme = "blue";
     else savedTheme = userTheme;
@@ -33,7 +33,7 @@
         if(r.id == savedTheme) r.setAttribute("checked", "");
     });
 
-    // Define um listener em todos os radios, que sempre que for selecionado vai executar a função changeTheme() com seu id.
+    // Sets all radio inputs functionality.
     document.querySelectorAll("input")
     .forEach((r)=>{
         r.addEventListener("change", (t)=>{
@@ -41,7 +41,7 @@
         })
     });
 
-    // Essa função simplesmente troca a classe do body - o resto é magia do CSS.
+    // Changes body's class, and the CSS makes the rest. (✨ magic ✨)
     function changeTheme(themeName){
         document.querySelector("body").className = themeName;
         localStorage.setItem("prefers-color-scheme", themeName);
@@ -53,8 +53,8 @@
 
 
 
-//#region CALCULADORA
-    // Disponibiliza o uso do teclado na calculadora.
+//#region Calc functions.
+    // keyboard disponibilization.
     window.addEventListener("keydown", (e)=>{
         switch(e.key){
             case "1": addNumber("1"); break;
@@ -80,14 +80,14 @@
         }
     })
 
-    // Reseta os valores padrões de calculo.
+    // Reset values.
     function clearCalc(){
         prevNumber = "";
         posNumber = "";
         operator = "";
         update();
     }
-    // Adiciona um número OU caractere (".") para a equação, verificando se está nas normas.
+    // Adds a number or character (.) to the equation.
     function addNumber(n){    
         if(operator == ""){
             if(prevNumber.includes(".") && n == ".") return;
@@ -100,7 +100,7 @@
         }
         update();
     }
-    // Deleta o último caractere caso exista. Se o operador existir mas o segundo valor não tiver sido definido, o operador é resetado.
+    // Deletes the last characters, number or operator.
     function deleteNumber(){
         if(operator == ""){
             prevNumber = prevNumber.slice(0, -1);
@@ -110,14 +110,14 @@
         }
         update();
     }
-    // Define o operador da função.
+    // Sets operator.
     function addOperator(o){
         if(prevNumber == "") return;
         if(operator == "") operator = o;
         else solve(o);
         update();
     }
-    // Atualiza todas as informações no DOM, trocando "." por "," para se adequar ao padrão brasileiro.
+    // Render.
     function update(){
         function adjustValue(v){
             if(v == "") return v;
@@ -136,9 +136,7 @@
             oldValue.innerHTML = adjustValue(prevNumber + " " + operator);
         }
     }
-    // Resolve os dois números baseados no operador escolhido e reseta a calculadora, definindo o primeiro valor como resultado.
-    // Caso a operação já possua um operador e outro operador for escolhido, a função de addOperator() executa este método com um paramêtro extra, que faz -
-    // - com que ele resolta a equação existente, defina o resultado e preserve o segundo operador escolhido.
+    // Solve function.
     function solve(e){
         if(operator == "") return;
         if(posNumber == "" || prevNumber == "") return;
@@ -164,6 +162,6 @@
         update();
     }
 
-    // update() inicial.
+    // Initial update()
     update();
 //#endregion
