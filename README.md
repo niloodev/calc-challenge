@@ -55,6 +55,6 @@ All in all, I finished the project creating a basic functional calculator system
 - Font ["Spartan from Google Fonts"](https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap)
 
 ## AUTHOR
-**Made by niloodev | Ezequiel Nilo
+**Made by niloodev | Ezequiel Nilo**
 
 **ANY TIPS OR FEEDBACK IS HIGHLY APPRECIATED! 🐸**
